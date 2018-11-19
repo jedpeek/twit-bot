@@ -1,0 +1,16 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "twitter bot for social media management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jed Peek",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "twit": "^2.2.11"
+  }
+}
