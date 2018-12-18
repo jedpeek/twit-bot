@@ -40,7 +40,7 @@ const timedTweet = ()=> {
     // if time strictly equals "9:00:00 AM"
     // (=== must much type(string) and value("9:00:00 AM"))
     // then post tweet otherwise log time to console
-    if(time === "9:15:00 AM"){
+    if(time === "9:30:00 AM"){
       T.post('statuses/update',
         { status: `'${quotes[i].text}' - ${quotes[i].from} #quotebot #inspiration` },
         (err, data, response) => {
@@ -61,8 +61,7 @@ let i = 0;
 // This setInterval will call timedTweet every second
 // This is how we update our date/time variables That
 // are checked against our if/else statement
-setInterval(timedTweet, 1000);
-T.post('statuses/update', {status:"YOOOO"})
+
 
 
 // Stream setup will track statuses that mention whatever you pass in.
