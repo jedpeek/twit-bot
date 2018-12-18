@@ -1,7 +1,7 @@
 // Setup twit package with node
 const Twit = require('twit');
 
-const serverless = require('serverless-http')
+// const serverless = require('serverless-http')
 // import quotes from quotes.js
 // gets quotes object from ./quotes.js
 // all quotes is an array of quotes
