@@ -40,7 +40,7 @@ const timedTweet = ()=> {
     // if time strictly equals "9:00:00 AM"
     // (=== must much type(string) and value("9:00:00 AM"))
     // then post tweet otherwise log time to console
-    if(time === "9:00:00 AM"){
+    if(time === "9:15:00 AM"){
       T.post('statuses/update',
         { status: `'${quotes[i].text}' - ${quotes[i].from} #quotebot #inspiration` },
         (err, data, response) => {
