@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.1.0",
+    "serverless-http": "^1.8.0",
     "twit": "^2.2.11"
   }
 }
